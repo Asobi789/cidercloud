@@ -131,3 +131,7 @@ jobs:
           stale-issue-label: '🚏 Awaiting User Response'
           close-issue-label: '🕸️ Inactive'
           exempt-issue-labels: '📌 Keep Open'
+
+permissions:
+  issues: write
+  pull-requests: write
